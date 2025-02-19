@@ -1,1 +1,6 @@
 streamlit
+pyngrok
+plotly
+joblib
+scikit-learn
+xgboost
