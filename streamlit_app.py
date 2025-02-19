@@ -16,7 +16,7 @@ st.title('🌍 Destin_AI_tion 🌍')
 st.subheader("Find the perfect country for your ERASMUS or moving abroad in Europe")
 
 # Titel der App
-st.write("**Who are you? - Where do you come from, what do you believe in, what are ypu passionate about?**")
+st.write("**Who are you? - Where do you come from, what do you believe in, what are you passionate about?**")
 st.write("The decision to move to another country or spend an Erasmus semester abroad is probably one of the most exciting and challenging decisions in life. "
          "But which European country best suits your personality, values, attitudes and preferences? ")
 st.write("This is exactly where our tool “DestinAItion” comes in. Using a data-based prediction model, we analyze your individual preferences and recommend the three most suitable European countries for your semester abroad or your emigration. ")
