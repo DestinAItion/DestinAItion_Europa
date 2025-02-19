@@ -4,6 +4,20 @@
 #pip install plotly
 # pip install joblib
 
+import subprocess
+import sys
+
+# Funktion zum Installieren von Packages, falls sie noch nicht installiert sind
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Installiere die benötigten Packages
+install('streamlit')
+install('pyngrok')
+install('plotly')
+install('joblib')
+install('scikit-learn')
+install('xgboost')
 import streamlit as st
 import pandas as pd
 import joblib
